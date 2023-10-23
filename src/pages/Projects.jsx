@@ -1,7 +1,27 @@
+import Card from "../components/Card";
+import projectData from "../data/projects.json";
+
 const Projects = () => {
   return (
     <>
       <h2>Projects</h2>
+      <div className="row">
+        {projectData.map(project => {
+          return (
+            <div className="col-sm-4 align-self-stretch" key={project.slug}>
+              <Card
+                name={project.name}
+                slug={project.slug}
+                img={project.img}
+                desc={project.description}
+                tech={project.technologies}
+                link={project.deployed}
+                repo={project.repository}
+              />
+            </div>
+          )
+        })}
+      </div>
     </>
   )
 };

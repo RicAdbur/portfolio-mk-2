@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Guess My Drawing",
+    "slug": "guess-my-drawing",
+    "img": "https://placehold.co/100x50",
+    "alt": "",
+    "description": "A simple game where players attempt to guess what one player is drawing.",
+    "technologies": ["socket.io", "HTML Canvas", "Node.js", "express.js"],
+    "deployed": "https://guess-my-draw-47ce90c0ad48.herokuapp.com/login",
+    "repository": "https://github.com/aidev13/guess-my-draw"
+  },
+  {
+    "name": "News World",
+    "slug": "news-world",
+    "img": "https://placehold.co/100x50",
+    "alt": "",
+    "description": "An app that allows the user to find current news based on selected countries.",
+    "technologies": [],
+    "deployed": "",
+    "repository": ""
+  },
+  {
+    "name": "Just Another Text Editor",
+    "slug": "just-another-text-editor",
+    "img": "https://placehold.co/100x50",
+    "alt": "",
+    "description": "A simple text-editor progressive web app.",
+    "technologies": [],
+    "deployed": "",
+    "repository": ""
+  }
+]
