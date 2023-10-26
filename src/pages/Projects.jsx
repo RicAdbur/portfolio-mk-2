@@ -4,11 +4,10 @@ import projectData from "../data/projects.json";
 const Projects = () => {
   return (
     <>
-      <h2>Projects</h2>
-      <div className="row">
+      <div className="row mt-4">
         {projectData.map(project => {
           return (
-            <div className="col-sm-4 align-self-stretch" key={project.slug}>
+            <div className="col-sm-6 align-self-stretch" key={project.slug}>
               <Card
                 name={project.name}
                 slug={project.slug}

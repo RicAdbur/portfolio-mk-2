@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
-    <nav className="navbar d-flex justify-content-center gap-3 p-3 bg-dark">
+    <nav className="navbar sticky-top d-flex justify-content-center gap-3 p-3 bg-secondary-subtle">
 
       <Link to="/" className="btn btn-outline-primary text-light">About Me</Link>
 
@@ -16,4 +16,4 @@ const Navbar = () => {
   )
 };
 
-export default Navbar;
+export default Navbar

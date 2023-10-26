@@ -2,7 +2,7 @@
   {
     "name": "Guess My Drawing",
     "slug": "guess-my-drawing",
-    "img": "https://placehold.co/100x50",
+    "img": "./src/images/GuessMyDrawingScreenshot.png",
     "alt": "",
     "description": "A simple game where players attempt to guess what one player is drawing.",
     "technologies": ["socket.io", "HTML Canvas", "Node.js", "express.js"],
@@ -15,9 +15,9 @@
     "img": "https://placehold.co/100x50",
     "alt": "",
     "description": "An app that allows the user to find current news based on selected countries.",
-    "technologies": [],
-    "deployed": "",
-    "repository": ""
+    "technologies": ["REST Countries API", "News API"],
+    "deployed": "https://ricadbur.github.io/world-news/",
+    "repository": "https://github.com/RicAdbur/world-news"
   },
   {
     "name": "Just Another Text Editor",
@@ -27,6 +27,26 @@
     "description": "A simple text-editor progressive web app.",
     "technologies": [],
     "deployed": "",
-    "repository": ""
+    "repository": "https://github.com/RicAdbur/text-editor-pwa"
+  },
+  {
+    "name": "Weather Dashboard",
+    "slug": "weather-dashboard",
+    "img": "https://placehold.co/100x50",
+    "alt": "",
+    "description": "A simple weather forecast application.",
+    "technologies": [],
+    "deployed": "https://ricadbur.github.io/weather-app/",
+    "repository": "https://github.com/RicAdbur/weather-app"
+  },
+  {
+    "name": "Day Planner",
+    "slug": "day-planner",
+    "img": "https://placehold.co/100x50",
+    "alt": "",
+    "description": "A calendar application for scheduling your day.",
+    "technologies": [],
+    "deployed": "https://ricadbur.github.io/calendar-app/",
+    "repository": "https://github.com/RicAdbur/calendar-app"
   }
 ]

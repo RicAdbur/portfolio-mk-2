@@ -1,5 +1,6 @@
-import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { Outlet } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 const App = () => {
 
@@ -7,11 +8,13 @@ const App = () => {
     <>
       <Navbar />
 
-      <div className="container p-3">
+      <div className="container-fluid p-3">
         <Outlet />
       </div>
+
+      <Footer />
     </>
   )
 };
 
-export default App;
+export default App
