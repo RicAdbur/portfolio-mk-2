@@ -1,34 +1,37 @@
 const Contact = () => {
   return (
     <div className="container mt-5">
-      <form>
+      <form 
+        action="https://formspree.io/f/mwkdyaqr"
+        method="POST"
+      >
+        <input type="text" name="_gotcha" style={{ display: "none" }} />
 
         <div className="row d-flex justify-content-center mt-5">
           <div className="col-4">
-            <label for="nameInput" className="form-label">Name</label>
-            <input type="text" className="form-control" id="nameInput" />
+            <input name="name" type="text" className="form-control" id="nameInput" placeholder="Name" />
           </div>
 
           <div className="col-4">
-            <label for="emailInput" className="form-label">Email address</label>
-            <input type="email" className="form-control" id="emailInput" placeholder="name@example.com" />
+            <input name="email" type="email" className="form-control" id="emailInput" placeholder="someone@example.com" />
           </div>
         </div>
 
         <div className="row d-flex justify-content-center my-4">
           <div className="col-8">
-            <label for="messageArea" className="form-label">Message</label>
-            <textarea className="form-control form-control-lg" id="messageArea" rows="3"></textarea>
+            <textarea name="message" className="form-control form-control-lg" id="messageArea" placeholder="What's on your mind?" rows="5"></textarea>
           </div>
         </div>
 
-        <div className="d-flex justify-content-center">
-          <button className="btn btn-lg btn-outline-primary text-light" type="submit">Send Message</button>
+        <div className="row d-flex justify-content-center">
+          <div className="col-8">
+            <button className="btn btn-lg btn-outline-primary text-light w-100" type="submit">Send Message</button>
+          </div>
         </div>
 
       </form>
     </div>
   )
-};
+}
 
-export default Contact;
+export default Contact

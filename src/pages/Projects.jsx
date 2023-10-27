@@ -1,10 +1,10 @@
-import Card from "../components/Card";
-import projectData from "../data/projects.json";
+import Card from "../components/Card"
+import projectData from "../data/projects.json"
 
 const Projects = () => {
   return (
     <>
-      <div className="row mt-4">
+      <div className="row mb-5">
         {projectData.map(project => {
           return (
             <div className="col-sm-6 align-self-stretch" key={project.slug}>
@@ -23,6 +23,6 @@ const Projects = () => {
       </div>
     </>
   )
-};
+}
 
-export default Projects;
+export default Projects

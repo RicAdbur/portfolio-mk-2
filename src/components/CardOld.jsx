@@ -1,6 +1,6 @@
 const Card = ({ name, slug, img, desc, tech, link, repo }) => {
   return (
-    <div className="card h-100">
+    <div className="card card bg-secondary-subtle border-primary-subtle text-light mx-4 my-3">
       <img
       src={img}
       alt={name}

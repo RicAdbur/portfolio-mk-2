@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './app.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./app.css"
 import AboutMe from "./pages/AboutMe.jsx";
 import Projects from './pages/Projects.jsx';
 import Resume from './pages/Resume.jsx';
