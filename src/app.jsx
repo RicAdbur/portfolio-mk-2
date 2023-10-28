@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Navbar />
 
-      <div className="container-fluid p-3">
+      <div className="container-fluid  p-3">
         <Outlet />
       </div>
 

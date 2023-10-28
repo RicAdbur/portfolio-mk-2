@@ -1,9 +1,10 @@
 const Contact = () => {
   return (
     <div className="container mt-5">
-      <form 
+      <form
         action="https://formspree.io/f/mwkdyaqr"
         method="POST"
+        className="border border-primary-subtle rounded"
       >
         <input type="text" name="_gotcha" style={{ display: "none" }} />
 
@@ -25,7 +26,12 @@ const Contact = () => {
 
         <div className="row d-flex justify-content-center">
           <div className="col-8">
-            <button className="btn btn-lg btn-outline-primary text-light w-100" type="submit">Send Message</button>
+            <button 
+              className="btn btn-lg btn-outline-primary text-light w-100 mb-5" 
+              type="submit"
+            >
+              Send Message
+            </button>
           </div>
         </div>
 
