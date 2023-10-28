@@ -13,9 +13,9 @@ const Card = ({ name, slug, img, desc, tech, link, repo }) => {
         <div class="card text-light border-light-subtle">
           <img src={img} class="card-img opacity-50" alt={name} />
           <div class="card-img-overlay text-shadow overflow-auto">
-            <h5 class="card-title">{name}</h5>
-            <p class="card-text">{desc}</p>
-            <p class="card-text position-absolute bottom-10 start-10"><small>{tech}</small></p>
+            <h5 class="card-title fs-3">{name}</h5>
+            <p class="card-text fs-5">{desc}</p>
+            <p class="card-text position-absolute bottom-10 start-10"><small>{tech.join(", ")}</small></p>
           </div>
         </div>
       </div>

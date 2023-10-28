@@ -6,6 +6,7 @@ const Contact = () => {
         method="POST"
         className="border border-primary-subtle rounded"
       >
+        
         <input type="text" name="_gotcha" style={{ display: "none" }} />
 
         <div className="row d-flex justify-content-center mt-5">
