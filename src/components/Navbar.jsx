@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
   return (
-    <nav className="navbar sticky-top d-flex justify-content-center gap-3 p-3 mb-4 bg-secondary-subtle">
+    <nav className="navbar sticky-top d-flex justify-content-center border-bottom border-light-subtle gap-3 p-3 mb-4 bg-secondary-subtle">
 
       <NavLink 
         to="/" 

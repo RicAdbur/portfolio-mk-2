@@ -4,7 +4,7 @@ const About = () => {
       <div className="card m-5 p-2 bg-transparent border-primary-subtle ">
         <div className="row g-0">
           <div className="col-md-3">
-            <img src="./src/images/Max.jpeg" className="img-fluid rounded" alt="Picture of Max" />
+            <img src="/images/Max.jpeg" className="img-fluid rounded" alt="Picture of Max" />
           </div>
           <div className="col-md-9">
             <div className="card-body px-4">

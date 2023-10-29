@@ -2,17 +2,17 @@
   {
     "name": "Guess My Drawing",
     "slug": "guess-my-drawing",
-    "img": "./src/images/GuessMyDrawingScreenshot.png",
+    "img": "/images/GuessMyDrawingScreenshot.png",
     "alt": "Image of Max's Drawing Guesser game",
     "description": "A simple game where players attempt to guess what one player is drawing.",
-    "technologies": ["socket.io", "HTML Canvas", "Node.js", "express.js"],
+    "technologies": ["Socket.io", "HTML Canvas", "Node.js", "Express.js"],
     "deployed": "https://guess-my-draw-47ce90c0ad48.herokuapp.com/login",
     "repository": "https://github.com/aidev13/guess-my-draw"
   },
   {
     "name": "News World",
     "slug": "news-world",
-    "img": "./src/images/NewsWorldScreenshot.png",
+    "img": "/images/NewsWorldScreenshot.png",
     "alt": "Image of Max's News-World group project site",
     "description": "An app that allows the user to find current news based on selected countries.",
     "technologies": ["REST Countries API", "News API"],
@@ -22,7 +22,7 @@
   {
     "name": "Just Another Text Editor",
     "slug": "just-another-text-editor",
-    "img": "./src/images/JATEscreenshot.png",
+    "img": "/images/JATEscreenshot.png",
     "alt": "Image of Max's text editor progressive web app",
     "description": "A simple text-editor progressive web app.",
     "technologies": ["Webpack", "Workbox", "Babel", "idb"],
@@ -32,7 +32,7 @@
   {
     "name": "Weather Dashboard",
     "slug": "weather-dashboard",
-    "img": "./src/images/WeatherDashboardScreenshot.png",
+    "img": "/images/WeatherDashboardScreenshot.png",
     "alt": "Image of Max's weather dashboard application",
     "description": "A simple weather forecast application.",
     "technologies": ["OpenWeather API"],
@@ -42,7 +42,7 @@
   {
     "name": "Note Taker",
     "slug": "note-taker",
-    "img": "/src/images/NoteTakerScreenshot.png",
+    "img": "/images/NoteTakerScreenshot.png",
     "alt": "Image of Max's Note Taker application",
     "description": "A simple application that allows the user to write and save notes.",
     "technologies": ["Express.js", "nanoid"],
@@ -52,7 +52,7 @@
   {
     "name": "Tech Blog",
     "slug": "tech-blog",
-    "img": "./src/images/TechBlogScreenshot.png",
+    "img": "/images/TechBlogScreenshot.png",
     "alt": "Image of Max's Tech Blog example site",
     "description": "An example tech blog site for learning the Model-View-Controller paradigm.",
     "technologies": ["Node.js", "Express.js", "Sequelize", "bcrypt"],
