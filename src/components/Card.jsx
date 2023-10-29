@@ -1,4 +1,4 @@
-const Card = ({ name, slug, img, desc, tech, link, repo }) => {
+const Card = ({ name, img, alt, desc, tech, link, repo }) => {
   return (
     <>
       <div className="mx-3">
@@ -11,11 +11,11 @@ const Card = ({ name, slug, img, desc, tech, link, repo }) => {
           </li>
         </ul>
         <div class="card text-light border-light-subtle">
-          <img src={img} class="card-img opacity-50" alt={name} />
-          <div class="card-img-overlay text-shadow overflow-auto">
+          <img src={img} class="card-img opacity-50" alt={alt} />
+          <div class="card-img-overlay text-shadow overflow-auto d-flex flex-column">
             <h5 class="card-title fs-3">{name}</h5>
             <p class="card-text fs-5">{desc}</p>
-            <p class="card-text position-absolute bottom-10 start-10"><small>{tech.join(", ")}</small></p>
+            <p class="card-text"><small>{tech.join(", ")}</small></p>
           </div>
         </div>
       </div>
