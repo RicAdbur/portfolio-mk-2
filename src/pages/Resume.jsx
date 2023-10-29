@@ -2,9 +2,29 @@ const Resume = () => {
   return (
     <div className="container mt-5">
       <div className="row d-flex justify-content-center">
-        <div className="col-8 border border-primary-subtle rounded">
-          <h2>Resumé - Soon™</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptates natus distinctio reprehenderit vel earum quasi soluta repellat doloremque, iusto modi non quam sequi obcaecati quaerat. Qui dolores beatae magni similique vel. Aliquid libero quos obcaecati, eligendi quis odit laborum animi sed, dicta voluptatem architecto itaque cum sunt numquam sequi?</p>
+        <div className="col-8 border border-primary-subtle rounded p-3">
+          <div className="row border-bottom">
+            <h2 className="text-center border-bottom mb-3 p-1">Technical Skills</h2>
+            <ul className="col-6 w-auto mx-auto">
+              <li>JavaScript ES5/ES6</li>
+              <li>jQuery</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>React + Vite</li>
+              <li>Handlebars</li>
+            </ul>
+            <ul className="col-6 w-auto mx-auto">
+              <li>MySQL/Sequelize</li>
+              <li>MongoDB/Mongoose</li>
+              <li>GraphQL</li>
+              <li>Apollo Client/Server</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+          <div className="d-flex">
+            <a href="#" className="btn btn-lg btn-outline-primary mx-auto mt-3">Resumé</a>
+          </div>
         </div>
       </div>
     </div>

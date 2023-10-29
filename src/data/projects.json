@@ -56,7 +56,7 @@
     "alt": "Image of Max's Tech Blog example site",
     "description": "An example tech blog site for learning the Model-View-Controller paradigm.",
     "technologies": ["Node.js", "Express.js", "Sequelize", "bcrypt"],
-    "deployed": "https://ricadbur.github.io/calendar-app/",
-    "repository": "https://github.com/RicAdbur/calendar-app"
+    "deployed": "https://tech-blog-mvc-1-0c8c1ab6f824.herokuapp.com/",
+    "repository": "https://github.com/RicAdbur/tech-blog-mvc"
   }
 ]

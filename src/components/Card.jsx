@@ -2,7 +2,7 @@ const Card = ({ name, img, alt, desc, tech, link, repo }) => {
   return (
     <>
       <div className="mx-3">
-        <ul className="nav nav-pills card-header-pills bg-secondary-subtle border rounded-top border-bottom-0 p-1">
+        <ul className="nav bg-secondary-subtle border rounded-top border-bottom-0 p-1">
           <li className="nav-item">
             <a className="btn btn-outline-primary text-light" href={link} target="_blank">App</a>
           </li>

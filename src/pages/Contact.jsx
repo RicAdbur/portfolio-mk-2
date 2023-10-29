@@ -15,7 +15,7 @@ const Contact = () => {
           </div>
 
           <div className="col-4">
-            <input name="email" type="email" className="form-control" id="emailInput" placeholder="someone@example.com" />
+            <input name="email" type="email" className="form-control" id="emailInput" placeholder="Email" />
           </div>
         </div>
 
