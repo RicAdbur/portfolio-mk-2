@@ -23,7 +23,7 @@ const Resume = () => {
             </ul>
           </div>
           <div className="d-flex">
-            <a href="#" className="btn btn-lg btn-outline-primary mx-auto mt-3">Resumé</a>
+            <a href="https://docs.google.com/document/d/14jZoTctLcm86Cx9GJfStjFjH9epSQ-2v6PosAG88c6E/edit?usp=sharing" className="btn btn-lg btn-outline-primary mx-auto mt-3">Resumé</a>
           </div>
         </div>
       </div>

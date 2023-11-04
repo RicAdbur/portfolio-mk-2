@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="row g-4">
         {projectData.map(project => {
           return (
-            <div className="col-sm-4 mb-4" key={project.slug}>
+            <div className="col-sm-12 col-md-6 col-lg-4 mb-4" key={project.slug}>
               <Card
                 name={project.name}
                 slug={project.slug}
